@@ -15,4 +15,4 @@ RUN \
   rstudio-server stop
 
 # Starts foreground server
-CMD /usr/lib/rstudio-server/bin/rserver && apachectl -DFOREGROUND
+CMD /usr/lib/rstudio-server/bin/rserver 
